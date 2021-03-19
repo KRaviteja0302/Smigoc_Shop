@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Smigoc_Shop" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="TextInputLayoutWithPrimarycolor" parent="Widget.Design.TextInputLayout">
+        <item name ="colorAccent">#0B0BA0</item>
+    </style>
+    <style name="edittext" parent="Widget.AppCompat.EditText">
+    <item name="android:layout_marginRight">15dp</item>
+    <item name="android:layout_marginLeft">15dp</item>
+    <item name="android:padding">10dp</item>
+    <item name="fontFamily">@string/font_name</item>
+    <item name="android:background">@drawable/box_editext</item>
+    <item name="android:textColorHint">@color/gray</item>
+    <item name="android:layout_marginTop">10dp</item>
+    <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

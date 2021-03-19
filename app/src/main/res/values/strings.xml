@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Smigoc_Shop</string>
+
+
+
+    <string name="currency">₹</string>
+    <string name="price">₹%1$s</string>
+    <string name="go_back"><u>Go Back</u></string>
+    <string name="view_price_details">View Price Details</string>
+    <string name="price_with_count">Price (%1$d)</string>
+    <string name="Errormessage">No Address are Avaliable Please Click the Add Button</string>
+    <string name="font_name">sans-serif-light</string>
+    <string name="address_value">%1$s , %2$s</string>
+</resources>
